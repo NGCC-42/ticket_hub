@@ -24,7 +24,7 @@ import re
 
 ### SET WEB APP CONFIGURATIONS
 
-favicon = Image.open('data/images/club-cannon-icon-black.bmp')
+favicon = Image.open('data/images/club-cannon-icon-black')
 
 st.set_page_config(page_title='Club Cannon Ticket Hub', 
                   layout='wide',
