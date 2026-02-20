@@ -14,7 +14,7 @@ import streamlit_shadcn_ui as ui
 import random
 from streamlit_extras.metric_cards import style_metric_cards
 from streamlit_extras.stylable_container import stylable_container
-#from streamlit_option_menu import option_menu
+from streamlit_option_menu import option_menu
 from streamlit_elements import elements, mui, html, dashboard
 from fpdf import FPDF
 import base64

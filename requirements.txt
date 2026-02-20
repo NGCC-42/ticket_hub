@@ -2,4 +2,4 @@ plotly
 matplotlib
 openpyxl
 streamlit_shadcn_ui
-strealit_option_menu
+streamlit_option_menu
