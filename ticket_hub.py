@@ -24,9 +24,9 @@ import re
 
 ### SET WEB APP CONFIGURATIONS
 
-favicon = Image.open('data/images/club-cannon-icon-black.png')
+favicon = Image.open('data/images/Magic_FX_Logo_PNG@10x.png')
 
-st.set_page_config(page_title='Club Cannon Ticket Hub', 
+st.set_page_config(page_title='FX Ticket Hub', 
                   layout='wide',
 				  page_icon=favicon,
 				  initial_sidebar_state='collapsed')
@@ -36,7 +36,7 @@ st.set_page_config(page_title='Club Cannon Ticket Hub',
 def load_image(path):
     return Image.open(path)
 
-image = load_image('data/images/club-cannon-logo-bbb.png')
+image = load_image('data/images/MFX_favicon.png')
 
 
 ### DISPLAY HEADER IMAGE    
