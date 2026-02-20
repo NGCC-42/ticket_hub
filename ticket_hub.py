@@ -24,7 +24,7 @@ import re
 
 ### SET WEB APP CONFIGURATIONS
 
-favicon = Image.open('data/images/club-cannon-icon-black')
+favicon = Image.open('data/images/club-cannon-icon-black.png')
 
 st.set_page_config(page_title='Club Cannon Ticket Hub', 
                   layout='wide',
@@ -48,7 +48,7 @@ col2.image(image,
 def load_bg(path):
     return mpimg.imread(path)
     
-bg_image = load_bg('data/images/club-cannon-icon-black.png')
+#bg_image = load_bg('data/images/club-cannon-icon-black.png')
 
 
 ### LOAD IN FILES
