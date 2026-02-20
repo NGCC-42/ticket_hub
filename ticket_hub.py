@@ -24,7 +24,7 @@ import re
 
 ### SET WEB APP CONFIGURATIONS
 
-favicon = Image.open('data/images/Magic_FX_Logo_PNG@10x.png')
+favicon = Image.open('data/images/MFX_favicon.png')
 
 st.set_page_config(page_title='FX Ticket Hub', 
                   layout='wide',
@@ -36,7 +36,7 @@ st.set_page_config(page_title='FX Ticket Hub',
 def load_image(path):
     return Image.open(path)
 
-image = load_image('data/images/MFX_favicon.png')
+image = load_image('data/images/Magic_FX_Logo_PNG@10x.png')
 
 
 ### DISPLAY HEADER IMAGE    
