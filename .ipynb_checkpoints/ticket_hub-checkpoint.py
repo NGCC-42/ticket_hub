@@ -25,7 +25,7 @@ import re
 ### SET WEB APP CONFIGURATIONS
 st.set_page_config(page_title='Club Cannon Ticket Hub', 
                   layout='wide',
-				  page_icon='ticket_hub/images/club-cannon-icon-black.bmp',
+				  page_icon='data/images/club-cannon-icon-black.bmp',
 				  initial_sidebar_state='collapsed')
 
 ### LOAD HEADER IMAGE
@@ -33,7 +33,7 @@ st.set_page_config(page_title='Club Cannon Ticket Hub',
 def load_image(path):
     return Image.open(path)
 
-image = load_image('ticket_hub/images/club-cannon-logo-bbb.png')
+image = load_image('data/images/club-cannon-logo-bbb.png')
 
 
 ### DISPLAY HEADER IMAGE    
@@ -45,7 +45,7 @@ col2.image(image,
 def load_bg(path):
     return mpimg.imread(path)
     
-bg_image = load_bg('club-cannon-icon-black.png')
+bg_image = load_bg('data/images/club-cannon-icon-black.png')
 
 
 ### LOAD IN FILES
@@ -64,7 +64,7 @@ def load_customers(path):
 
     return df
 
-df = load_customers('SOD 2.18.26.xlsx')
+df = load_customers('data/files/SOD 2.18.26.xlsx')
 
 
 ### CORRECT NAME DISCREPENCIES IN CUSTOMER LIST
