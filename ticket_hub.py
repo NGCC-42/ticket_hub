@@ -23,9 +23,12 @@ import re
 
 
 ### SET WEB APP CONFIGURATIONS
+
+favicon = Image.open('data/images/club-cannon-icon-black.bmp')
+
 st.set_page_config(page_title='Club Cannon Ticket Hub', 
                   layout='wide',
-				  page_icon='data/images/club-cannon-icon-black.bmp',
+				  page_icon=favicon,
 				  initial_sidebar_state='collapsed')
 
 ### LOAD HEADER IMAGE
