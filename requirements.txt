@@ -4,3 +4,4 @@ openpyxl
 streamlit_shadcn_ui
 streamlit_option_menu
 streamlit_elements
+fpdf
